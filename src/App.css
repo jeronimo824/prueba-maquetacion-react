@@ -28,6 +28,102 @@
   color: #61dafb;
 }
 
+
+.nav li{
+  display:inline-block;
+  padding: 10px;
+  background: black;
+  padding-left:3px;
+  padding-right:3px;
+  background-color:#fcfcf6;
+  
+}
+
+#header {
+  margin:auto;
+  width:500px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+ul, ol {
+  list-style:none;
+}
+
+.nav {
+  width:500px; /*Le establecemos un ancho*/
+  margin:0 auto; /*Centramos automaticamente*/
+}
+
+.nav > li {
+  float:left;
+}
+
+.nav li a {
+  background-color:#000;
+  color:#fff;
+  text-decoration:none;
+  padding:10px 12px;
+  display:block;
+}
+
+.nav li a:hover {
+  background-color:#434343;
+}
+
+.nav li ul {
+  display:none;
+  position:absolute;
+  min-width:140px;
+}
+
+.nav li:hover > ul {
+  display:block;
+}
+
+.nav li ul li {
+  position:relative;
+}
+
+.nav li ul li ul {
+  right:-140px;
+  top:0px;
+}
+
+.imagen{
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  padding: 100px;
+  margin-bottom: 100px;
+  background-image: url('descarga.jpg');
+}
+.parrafo{
+  padding: 40px;
+}
+.cuadro{
+  padding: 40px;
+  display: inline-block;
+}
+
+.cuadro .rojo{
+  color: #fcfcf6;
+  text-align: center;
+  padding: 25px;
+  width: 250px;
+  height: 150px;
+  background-color: red;
+  float: left;
+}
+.text{
+  background-color: #282c34;
+  height: 150px;
+  width: 250px;
+  float: right;
+  margin: 100px;
+  padding: 50px;
+  padding-left: 45px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
